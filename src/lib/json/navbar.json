@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Botões",
+        "componente": "botoes",
+        "icon": "far fa-arrow-alt-circle-right"
+    },
+    {
+        "nome": "Cards",
+        "componente": "cards",
+        "icon": "far fa-address-card"
+    },
+    {
+        "nome": "Formulários",
+        "componente": "forms",
+        "icon": "fab fa-wpforms"
+    }
+]
