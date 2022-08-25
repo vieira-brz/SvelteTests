@@ -10,7 +10,11 @@
     </Titulo>
 
     <div class="container-cards">
-        <Card>
+        <Card
+            title={'Título do Card Minimalista'}
+            info={'Informação breve referente ao card minimalista'}
+            type={'citacao'}
+        >
             <h1>teste</h1>
         </Card>
     </div>
