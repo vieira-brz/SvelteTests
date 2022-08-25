@@ -5,6 +5,7 @@
     font-weight: 400;
     color: var(--texto);
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
  
 :root {
@@ -13,16 +14,57 @@
     
     --branco: #FAFAFA;
     --cinza: #EAEAEA;
-    --laranja: #FF734C;
-    --verde: #41A86A;
-    
+    --cinza-2: #b8b8b8;
+    --cinza-3: #9c9c9c;
+    --cinza-4: #d1d1d1;
+
+    --verde: #057c46;
+    --verde-2: #04663a;
+    --verde-desabilitado: #005c6530;
+
+    --vermelho: #dc3545;
+    --vermelho-2: #d22536;
+    --vermelho-desabilitado: #d2253630;
+
+    --preto: #212529;
+    --preto-2: #000000;
+    --preto-desabilitado: #00000030;
+
+    --azul: #0d6efd;
+    --azul-2: #005ee8;
+    --azul-desabilitado: #005ee830;
+
+    --amarelo: #ffae00;
+    --amarelo-2: #e29d08;
+    --amarelo-desabilitado: #f5b80030;
+
+    --info: #00b7ff;
+    --info-2: #059fdb;
+    --info-desabilitado: #07b5d830;
+
+    --desabilitado: #9e9e9e8a;
     --shadow: 0 0 10px #00000030;
 
     --gradient-default: #005c65;
+    --gradient-default-2: #008e9b;
     --gradient-transparent: #005c6530;
     --gradient: linear-gradient(90deg, #005c65 0%, #099c87 48%, #2ca9b3 100%);
+    --gradient-type-2: linear-gradient(90deg, #008e9b 0%, #10d8ba 48%, #38d8e4 100%);
 }
  
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cinza-4);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gradient);
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     color: var(--cor-texto-principal);
@@ -49,4 +91,9 @@ li {
  
 a {
     text-decoration: none;
+}
+
+.divisoria {
+    height: 1px;
+    background-color: var(--cinza-2);
 }

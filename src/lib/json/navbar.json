@@ -13,5 +13,10 @@
         "nome": "Formulários",
         "componente": "forms",
         "icon": "fab fa-wpforms"
+    },   
+    {
+        "nome": "Configurações",
+        "componente": "config",
+        "icon": "fas fa-cog"
     }
 ]

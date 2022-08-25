@@ -4,6 +4,7 @@
 
 <footer>
     <Logo>&nbsp VB &nbsp</Logo>
+    <p>Copyright by @ vieira-brz</p>
 </footer>
 
 <style>

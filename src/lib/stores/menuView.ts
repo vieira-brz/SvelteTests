@@ -1,6 +1,6 @@
 import { writable } from "svelte/store";
 
-const { subscribe, set, update } = writable<string>('botoes');
+const { subscribe, set, update } = writable('');
 
 export const menuView = {
     subscribe,
