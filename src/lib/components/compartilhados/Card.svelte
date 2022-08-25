@@ -15,7 +15,9 @@
     </header>
     
     <div class="card-body">
-        <slot></slot>
+        <div>
+            <slot></slot>
+        </div>
     </div>
 
     <footer>
@@ -27,6 +29,8 @@
 
 <style>
     .card {
+        max-width: 300px;
+        max-height: 200px;
         width: fit-content;
         border-radius: 4px;
         background: var(--branco);
@@ -37,7 +41,9 @@
     .card > footer {
         padding: 10px;
         display: flex;
+        max-height: 42px;
         align-items: center;
+        color: var(--cinza-5);
         justify-content: space-between;
     }
 
@@ -50,6 +56,12 @@
         padding: 10px;
         border-top: 1px solid var(--cinza-4);
         border-bottom: 1px solid var(--cinza-4);
+    }
+    
+    .card .card-body > div {
+        max-height: 70px;
+        overflow: hidden auto;
+        padding: 0 0 10px 0;
     }
 
     .card > footer > small {

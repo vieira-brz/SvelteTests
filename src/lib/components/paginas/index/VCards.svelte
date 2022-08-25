@@ -15,7 +15,7 @@
             info={'Informação breve referente ao card minimalista'}
             type={'citacao'}
         >
-            <h1>teste</h1>
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero alias ratione quibusdam in itaque. Harum dolore cum qui dolor, reiciendis tenetur beatae quis vitae officiis, enim temporibus obcaecati animi praesentium.</h1>
         </Card>
     </div>
 </div>
