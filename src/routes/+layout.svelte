@@ -3,7 +3,7 @@
 
     import navbar from '$lib/json/navbar.json';
 
-    import Cabecalho from "$components/paginas/layout/Cabecalho.svelte";
+    import Cabecalho from "$lib/components/paginas/layout/Cabecalho.svelte";
     import Menu from "$lib/components/paginas/layout/Menu.svelte";
     import Rodape from "$lib/components/paginas/layout/Rodape.svelte";
 </script>
