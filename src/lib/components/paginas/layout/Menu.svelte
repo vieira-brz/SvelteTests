@@ -4,13 +4,13 @@
     
     export let navbar: INavbar;
 
-    function alteraMenu(argString: string) { 
+    function alteraMenu(argString: string): void { 
         $menuView = argString;
         sessionStorage.setItem('menuViewActive', argString);
     }
 
     let fechado = true;
-    function toggleMenu() {
+    function toggleMenu(): void {
         fechado = !fechado;
     }
 </script>

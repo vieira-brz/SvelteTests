@@ -1,8 +1,14 @@
 <script lang="ts">
+    import { menuView } from "$lib/stores/menuView";
     import Logo from "$lib/components/compartilhados/Logo.svelte";
+
+    function alteraMenu(): void { 
+        $menuView = '';
+        sessionStorage.setItem('menuViewActive', '');
+    }
 </script>
 
-<header>
+<header on:click={alteraMenu}>
     <Logo>Vieira Braz</Logo>
 </header>
 

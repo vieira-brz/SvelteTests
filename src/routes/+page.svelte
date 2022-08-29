@@ -14,7 +14,9 @@
 </svelte:head>
 
 <div class="container-items">
-    {#if $menuView === 'botoes'}
+    {#if $menuView === ''}
+        <h1>Initial Page</h1>
+    {:else if $menuView === 'botoes'}
         <VBotoes />
     {:else if $menuView == 'cards'}
         <VCards />
